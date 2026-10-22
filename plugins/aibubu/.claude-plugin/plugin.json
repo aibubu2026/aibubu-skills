@@ -1,0 +1,15 @@
+{
+  "name": "aibubu",
+  "version": "0.1.0",
+  "description": "Aibubu（aibubu.cn）国内版：生成图片和视频的 Agent Skill 与远程 MCP。",
+  "author": {
+    "name": "Aibubu"
+  },
+  "homepage": "https://docs.aibubu.cn/cn/agent-tools",
+  "keywords": [
+    "aibubu",
+    "mcp",
+    "image-generation",
+    "video-generation"
+  ]
+}

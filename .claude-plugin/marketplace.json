@@ -1,0 +1,23 @@
+{
+  "name": "aibubu",
+  "owner": {
+    "name": "Aibubu"
+  },
+  "metadata": {
+    "description": "Official Aibubu plugins for Claude Code: generate images and videos with Aibubu models."
+  },
+  "plugins": [
+    {
+      "name": "aibubu",
+      "source": "./plugins/aibubu",
+      "description": "Aibubu（aibubu.cn）国内版：生成图片和视频的 Agent Skill 与远程 MCP。",
+      "version": "0.1.0"
+    },
+    {
+      "name": "aibubu-global",
+      "source": "./plugins/aibubu-global",
+      "description": "Aibubu (aibubu.ai) international: Agent Skill and remote MCP for image and video generation.",
+      "version": "0.1.0"
+    }
+  ]
+}

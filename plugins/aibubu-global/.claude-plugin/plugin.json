@@ -1,0 +1,15 @@
+{
+  "name": "aibubu-global",
+  "version": "0.1.0",
+  "description": "Aibubu (aibubu.ai) international: Agent Skill and remote MCP for image and video generation.",
+  "author": {
+    "name": "Aibubu"
+  },
+  "homepage": "https://docs.aibubu.ai/en/agent-tools",
+  "keywords": [
+    "aibubu",
+    "mcp",
+    "image-generation",
+    "video-generation"
+  ]
+}
