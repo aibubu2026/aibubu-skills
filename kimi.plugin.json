@@ -1,0 +1,19 @@
+{
+  "name": "aibubu",
+  "version": "0.1.0",
+  "description": "用 Aibubu（aibubu.cn）模型生成图片和视频：远程 MCP + aibubu-models Skill。",
+  "author": "Aibubu",
+  "homepage": "https://docs.aibubu.cn/cn/agent-tools",
+  "skills": "./plugins/aibubu/skills/",
+  "mcpServers": {
+    "aibubu": {
+      "url": "https://aibubu.cn/mcp"
+    }
+  },
+  "interface": {
+    "displayName": "Aibubu (China)",
+    "shortDescription": "用 Aibubu 模型生成图片和视频",
+    "developerName": "Aibubu",
+    "websiteURL": "https://aibubu.cn"
+  }
+}

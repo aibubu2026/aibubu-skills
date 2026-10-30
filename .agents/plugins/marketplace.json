@@ -1,0 +1,32 @@
+{
+  "name": "aibubu",
+  "interface": {
+    "displayName": "Aibubu"
+  },
+  "plugins": [
+    {
+      "name": "aibubu-global",
+      "source": {
+        "source": "local",
+        "path": "./plugins/aibubu-global"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "aibubu",
+      "source": {
+        "source": "local",
+        "path": "./plugins/aibubu"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

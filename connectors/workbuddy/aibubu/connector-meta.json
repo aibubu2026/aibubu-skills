@@ -1,0 +1,23 @@
+{
+  "name": "Aibubu",
+  "name_zh": "Aibubu",
+  "name_en": "Aibubu",
+  "description": "营销图片与视频生成：电商主图、商品场景图、广告变体、图生视频，先报价后生成。",
+  "description_zh": "营销图片与视频生成：电商主图、商品场景图、广告变体、图生视频，先报价后生成。",
+  "description_en": "Marketing image and video generation: product shots, scenes, ad variants, image-to-video.",
+  "source": "aibubu",
+  "type": "mcp",
+  "version": "0.3.245",
+  "examples_zh": [
+    "把这张商品图做成白底主图和三张场景图，先报价",
+    "用 Aibubu 列出可用的视频模型，并比较 5 秒视频的积分价格",
+    "把这张主图做成 5 秒图生视频，生成前告诉我预计积分",
+    "给这款保温杯生成 4 张不同风格的广告图变体，先查余额和报价"
+  ],
+  "examples_en": [
+    "Turn this product photo into a white-background hero shot and three lifestyle scenes, quote first",
+    "List the available Aibubu video models and compare the credit price of a 5-second clip",
+    "Make a 5-second image-to-video clip from this hero image and tell me the estimated credits first",
+    "Generate four ad variants in different styles for this thermos, check my balance and quote first"
+  ]
+}
