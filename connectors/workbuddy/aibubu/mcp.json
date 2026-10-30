@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "aibubu": {
+      "type": "streamableHttp",
+      "url": "https://aibubu.cn/mcp",
+      "timeout": 30000
+    }
+  }
+}

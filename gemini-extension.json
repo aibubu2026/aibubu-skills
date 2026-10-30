@@ -1,0 +1,19 @@
+{
+  "name": "aibubu",
+  "version": "0.1.0",
+  "description": "Generate images and videos with Aibubu models through a remote MCP server with browser sign-in.",
+  "mcpServers": {
+    "aibubu": {
+      "httpUrl": "https://aibubu.ai/mcp",
+      "oauth": {
+        "enabled": true,
+        "scopes": [
+          "mcp:read",
+          "mcp:generate",
+          "mcp:history"
+        ]
+      }
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}

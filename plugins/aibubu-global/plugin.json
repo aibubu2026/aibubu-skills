@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "aibubu-global",
+  "version": "0.1.0",
+  "description": "Aibubu (aibubu.ai) international: Agent Skill and remote MCP for image and video generation.",
+  "author": {
+    "name": "Aibubu",
+    "url": "https://aibubu.ai"
+  },
+  "homepage": "https://docs.aibubu.ai/en/agent-tools",
+  "repository": "https://github.com/aibubu2026/aibubu-skills",
+  "keywords": [
+    "aibubu",
+    "mcp",
+    "image-generation",
+    "video-generation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Aibubu (Global)",
+        "shortDescription": "Generate images and videos with Aibubu models",
+        "developerName": "Aibubu",
+        "category": "Productivity",
+        "websiteURL": "https://aibubu.ai"
+      }
+    }
+  }
+}

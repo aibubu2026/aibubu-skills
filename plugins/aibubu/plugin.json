@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "aibubu",
+  "version": "0.1.0",
+  "description": "Aibubu（aibubu.cn）国内版：生成图片和视频的 Agent Skill 与远程 MCP。",
+  "author": {
+    "name": "Aibubu",
+    "url": "https://aibubu.cn"
+  },
+  "homepage": "https://docs.aibubu.cn/cn/agent-tools",
+  "repository": "https://github.com/aibubu2026/aibubu-skills",
+  "keywords": [
+    "aibubu",
+    "mcp",
+    "image-generation",
+    "video-generation"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Aibubu (China)",
+        "shortDescription": "用 Aibubu 模型生成图片和视频",
+        "developerName": "Aibubu",
+        "category": "Productivity",
+        "websiteURL": "https://aibubu.cn"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "aibubu",
+  "version": "0.1.0",
+  "description": "用 Aibubu（aibubu.cn）模型生成图片和视频：远程 MCP + aibubu-models Skill。",
+  "mcpServers": {
+    "aibubu": {
+      "httpUrl": "https://aibubu.cn/mcp",
+      "oauth": {
+        "enabled": true,
+        "scopes": ["mcp:read", "mcp:generate", "mcp:history"]
+      }
+    }
+  },
+  "contextFileName": "QWEN.md",
+  "skills": "plugins/aibubu/skills"
+}
